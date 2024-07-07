@@ -1,0 +1,6 @@
+Step 1 :  You need to Add the new Code In Custom_fields.php file in __construct function 
+Path   : application/controllers/admin/Custom_fields.php
+
+Line Of Code : 
+$this->get_custom_field_group = $this->custom_fields_model->get_custom_field_group();
+

@@ -23,8 +23,8 @@ $new_field = 'cfg_id';
 $new_field_type = 'VARCHAR(255) NULL';
 
 // Check if the field exists
-if (!$CI->db->field_exists($new_field, $table_name)) {
+if (!$CI->db->field_exists($new_field, $customfields)) {
     // Add the new field to the table
-    $query = "ALTER TABLE `$table_name` ADD `$new_field` $new_field_type";
+    $query = "ALTER TABLE `$customfields` ADD `$new_field` $new_field_type";
     $CI->db->query($query);
 }
