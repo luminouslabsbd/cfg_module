@@ -1,0 +1,208 @@
+@media screen and (max-width: 991px) {
+    .header-list-item ul{
+        display: none;
+    }
+
+    .mobile-menu button {
+        display: block;
+        color: white;
+        font-size: 22px;
+    }
+
+    .personalizarle-title h2{
+        font-size: 45px;
+    }
+    
+    .personalizarle-title p{
+        font-size: 20px;
+    }
+
+    .hero-section-content h2{
+        font-size: 45px;
+    }
+
+    section.vcard-section h1{
+        font-size: 40px;
+    }
+
+    .main-footer-section{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    
+    .wrapper-footer{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .temas-card{
+        margin-top: 65px;
+    }
+
+    section.personalizarle-section{
+        margin-top: 100px;
+    }
+
+    .pixeles-item-section {
+        margin-top: 65px;
+    }
+
+    .pixeles-item-section{
+        padding-top: 50px;
+    }
+
+    .registration-section{
+        margin-top: 50px;
+    }
+    .pixeles-items{
+        gap: unset;
+    }
+
+    .fmarketing-keos-page-section {
+        padding-bottom: 45px;
+    }
+        
+   
+    .Potencia-content h3{
+        font-size: 30px;
+    }
+
+    .envia-los-content p{
+        font-size: 19px;
+    }
+
+    p.hero-section-paragraph{
+        font-size: 19px;
+    }
+
+    /* .Funciones-title p{
+        font-size: 18px;
+    } */
+
+    .descubre-heading h2{
+        font-size: 47px;
+    }
+
+    .teabaja-heading h2{
+        font-size: 45px;
+    }
+
+    .teabaja-heading p{
+        font-size: 25px;
+    }
+
+    .necesidades-heading h2{
+        font-size: 45px;
+    }
+
+    .necesidades-heading p {
+        font-size: 20px;
+        color: white;
+        padding: 20px 0;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .registration-title h3{
+        font-size: 27px;
+    }
+
+    .registration-title p{
+        font-size: 20px;
+    }
+    
+    .main-registration-form{
+        flex-direction: column;
+        gap: 0px;
+        text-align: center;
+    }
+
+    .registration-title{
+        max-width: unset;
+    }
+
+    .hero-section-image{
+        margin-left: 20px;
+    }
+
+
+    .Potencia-title h2{
+        font-size: 35px;
+    }
+
+    .main-Potencia-email-marketing{
+        flex-direction: column;
+    }
+
+    .envia-los-heading h2{
+        font-size: 45px;
+    }
+
+    .Funciones-title p{
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+
+    .descubre-heading h2{
+        font-size: 40px;
+    }
+
+    .necesidades-button button{
+        width: 75%;
+    }
+
+    .necesidades-heading h2{
+        font-size: 40px;
+    }
+
+    .Funciones-title h2{
+        font-size: 55px;
+    }
+
+    .administrador-heading h4{
+        font-size: 30px;
+    }
+
+    .teabaja-heading p{
+        font-size: 20px;
+    }
+
+    .wrapper-Funciones-card-item:hover{
+        transform: unset;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+    .Potencia-content span{
+        font-size: 20px;
+    }
+
+    .pracing-title h1{
+        font-size: 45px;
+    }
+    
+    .comprar-planes-heading h2{
+        font-size: 50px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .footer-image{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .personalizarle-title h2{
+        font-size: 40px;
+    }
+
+    .Potencia-content span{
+        font-size: 17px;
+    }
+}
