@@ -5,4 +5,4 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 $config['csrf_exclude_uris_cfg_module'] = ['forms/wtl/[0-9a-z]+', 'forms/ticket', 'forms/quote/[0-9a-z]+', 'admin/tasks/timer_tracking', 'api\/.+', 
 'razorpay/success\/.+','admin/cfg_module/cfg_module/custom_fields_group','admin/cfg_module/cfg_module/delete_group',
-'cfg_module/cfg_module/update_fields_group','admin/clients/load_custom_fields','admin/clients/custom_field_order_update'];
+'admin/cfg_module/cfg_module/update_fields_group','admin/clients/load_custom_fields','admin/clients/custom_field_order_update'];
